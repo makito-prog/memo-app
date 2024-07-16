@@ -1,0 +1,48 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+/* Memo Listの背景色と全体のスタイル */
+.memo-list-container {
+    background-color: #f8f9fa; /* メモリスト全体の背景色 */
+    padding: 20px; /* 全体の余白 */
+  
+    .title {
+      color: #343a40; /* タイトルのテキスト色 */
+      margin-bottom: 20px; /* タイトルとボタンの間の余白 */
+    }
+  
+    .btn-primary {
+      background-color: #007bff; /* ボタンの背景色 */
+      border-color: #007bff; /* ボタンの枠線色 */
+    }
+  
+    .btn-primary:hover {
+      background-color: #0056b3; /* ボタンのホバー時の背景色 */
+      border-color: #0056b3; /* ボタンのホバー時の枠線色 */
+    }
+  }
+  
+  /* カードのスタイル */
+  .card {
+    background-color: #ffffff; /* カードの背景色 */
+    border: 1px solid #ced4da; /* カードの枠線 */
+    border-radius: 8px; /* カードの角丸 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* カードの影 */
+  
+    .card-body {
+      padding: 20px; /* カードボディの余白 */
+    }
+  
+    .card-title {
+      color: #007bff; /* カードタイトルのテキスト色 */
+      font-size: 1.25rem; /* カードタイトルのフォントサイズ */
+      margin-bottom: 10px; /* カードタイトルとボディの間の余白 */
+    }
+  
+    .card-text {
+      color: #6c757d; /* カードテキストのテキスト色 */
+      font-size: 1rem; /* カードテキストのフォントサイズ */
+    }
+  }
+  
